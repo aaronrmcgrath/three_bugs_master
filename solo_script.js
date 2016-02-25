@@ -6,7 +6,9 @@
 // var arrayBoo = ["Boo", "11435", "54000", 3];
 // var arrayScout = ["Scout", "6243", "74750", 5];
 
-
+$(document).ready(fucntion(){
+  
+});
 
 
 function Person(objName, objNumber, objSalary, objReview){
@@ -86,7 +88,7 @@ function getBaseSTI(reviewScore){
       basePercent = 0.10;
       break;
   }
-  return basePercent; 
+  return basePercent;
   //second bug!! I actually noticed this first but testing was no good until finding 1st bug
 
 
@@ -110,4 +112,3 @@ function getIncomeAdjustment(salary){
   }
   return incomeAdjustment;
 }
-
