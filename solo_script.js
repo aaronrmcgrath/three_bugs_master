@@ -138,6 +138,9 @@ function appendDom (person) {
   $('.container').append('<div class="employees"></div>');
   var $el = $('.container').children().last();
   $el.append('<p>' + person.objName + '</p>');
+  $el.append('<p>' + person.objSalary + '</p>');
+  $el.append('<p>' + person.sti + '</p>');
+  $el.append('<p>' + person.newSalary + '</p>');
 }
 
 // console.log(calculateSTI(employeeObj));
